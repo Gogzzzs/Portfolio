@@ -2,7 +2,7 @@
 
 Portfólio pessoal de Gabriel Gonçalves Ramos — Desenvolvedor Full-Stack.
 
-![siteImg](./siteImg.png)
+![siteImg](img/siteImg.png)
 
 ## 🔗 Acesse o site
 **[https://gogzzzs.github.io/Portfolio/](https://gogzzzs.github.io/Portfolio/)**
@@ -30,12 +30,11 @@ Site pessoal/portfólio com informações sobre mim, skills, experiência, proje
 - `style.css` — estilos globais
 - `script.js` — lógica e interatividade
 - `img/` — imagens dos projetos
-- `siteImg.png` — preview do site
 
 ## 📧 Contato
 - **GitHub:** [Gogzzzs](https://github.com/Gogzzzs)
-- **LinkedIn:** [seu-perfil](https://linkedin.com/in/seu-perfil)
-- **WhatsApp:** +55 (21) 99999-9999
+- **LinkedIn:** [Gabriel Ramos](https://www.linkedin.com/in/gabriel-ramos-1a7a63382/)
+- **WhatsApp:** +55 (22) 99712-4650
 
 ---
 
