@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>Gabriel Gonçalves Ramos — Desenvolvedor Full‑Stack</title>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <nav class="navbar">
+      <div class="wrap nav-inner">
+         <div class="brand">
+            <div class="brand-mark">G</div>
+            <div class="brand-name">Gabriel Gonçalves Ramos</div>
+            <span class="pill" style="margin-left:8px">Full‑Stack • CEFET/RJ</span>
+         </div>
+         <div class="menu">
+            <div class="menu-links">
+               <a class="nav-link" href="#home">Início</a>
+               <a class="nav-link" href="#about">Sobre</a>
+               <a class="nav-link" href="#skills">Skills</a>
+               <a class="nav-link" href="#experience">Experiência</a>
+               <a class="nav-link" href="#projects">Projetos</a>
+               <a class="nav-link" href="#contact">Contato</a>
+            </div>
+            <button id="theme" class="theme-btn" aria-label="Alternar tema"><i class="fa-solid fa-moon"></i></button>
+            <div class="hamb" id="hamb">
+               <span></span><span></span><span></span>
+            </div>
+         </div>
+      </div>
+   </nav>
+
+   <main>
+      <section id="home" class="hero wrap">
+         <h1>Interfaces rápidas e elegantes com <span style="background:linear-gradient(90deg,var(--brand-a),var(--brand-b));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent">HTML, CSS, JS, Node.js e SQL</span>.</h1>
+         <p>Sou desenvolvedor <b>Full‑Stack</b> — foco em Frontend moderno e APIs Node.js. Estudo <b>Sistemas de Informação</b> no <b>CEFET/RJ – Nova Friburgo</b> (2025 → 2029).</p>
+         <div class="actions">
+            <a class="btn" href="#projects"><i class="fa-solid fa-rocket"></i> Ver projetos</a>
+            <a class="btn ghost" href="#contact"><i class="fa-solid fa-envelope"></i> Contato</a>
+         </div>
+         <div class="stack" style="margin-top:18px">
+            <span class="pill"><i class="fa-regular fa-keyboard"></i> A11y</span>
+            <span class="pill"><i class="fa-solid fa-gauge-high"></i> Performance</span>
+            <span class="pill"><i class="fa-solid fa-bolt"></i> Microinterações</span>
+            <span class="pill"><i class="fa-solid fa-database"></i> MySQL & Postgres</span>
+         </div>
+      </section>
+
+      <section id="about">
+         <div class="wrap grid-2">
+            <article class="card">
+               <div class="pad">
+                  <h2 class="sec-title">Sobre Mim</h2>
+                  <p class="sec-sub">Tom original, direto e focado em entregar.</p>
+                  <p>Transformo ideias em produtos usáveis. Gosto de criar UIs acessíveis, rápidas e consistentes. No back, curto Node.js limpo, rotas bem definidas e queries seguras em <b>MySQL</b> e <b>Postgres</b>.</p>
+                  <div style="margin-top:14px" class="stack">
+                     <span class="pill">HTML semântico</span>
+                     <span class="pill">CSS utilitário próprio</span>
+                     <span class="pill">JS moderno (ES2023)</span>
+                     <span class="pill">Node.js</span>
+                     <span class="pill">SQL</span>
+                  </div>
+               </div>
+            </article>
+            <aside class="card">
+               <div class="pad">
+                  <h3 style="margin:0 0 10px">Mini‑metas</h3>
+                  <div class="meter" style="margin-bottom:10px">
+                     <div class="row" style="display:flex;justify-content:space-between;margin-bottom:6px"><b>Frontend</b><small class="sec-sub">85%</small></div>
+                     <div class="bar"><span style="--p:.85"></span></div>
+                  </div>
+                  <div class="meter" style="margin-bottom:10px">
+                     <div class="row" style="display:flex;justify-content:space-between;margin-bottom:6px"><b>Node.js</b><small class="sec-sub">78%</small></div>
+                     <div class="bar"><span style="--p:.78"></span></div>
+                  </div>
+                  <div class="meter">
+                     <div class="row" style="display:flex;justify-content:space-between;margin-bottom:6px"><b>SQL</b><small class="sec-sub">72%</small></div>
+                     <div class="bar"><span style="--p:.72"></span></div>
+                  </div>
+               </div>
+            </aside>
+         </div>
+      </section>
+
+      <section id="skills">
+         <div class="wrap">
+            <h2 class="sec-title">Skills</h2>
+            <p class="sec-sub">Stack principal e áreas de conforto.</p>
+            <div class="grid-3">
+               <div class="card"><div class="pad">
+                  <h3 style="margin:0 0 8px"><i class="fa-solid fa-code"></i> Front‑end</h3>
+                  <div class="stack">
+                     <span class="tag">HTML</span>
+                     <span class="tag">CSS</span>
+                     <span class="tag">JavaScript</span>
+                     <span class="tag">A11y</span>
+                     <span class="tag">Desempenho</span>
+                  </div>
+               </div></div>
+               <div class="card"><div class="pad">
+                  <h3 style="margin:0 0 8px"><i class="fa-solid fa-server"></i> Back‑end</h3>
+                  <div class="stack">
+                     <span class="tag">Node.js</span>
+                     <span class="tag">REST</span>
+                     <span class="tag">Autenticação</span>
+                  </div>
+               </div></div>
+               <div class="card"><div class="pad">
+                  <h3 style="margin:0 0 8px"><i class="fa-solid fa-database"></i> Banco de Dados</h3>
+                  <div class="stack">
+                     <span class="tag">MySQL</span>
+                     <span class="tag">Postgres</span>
+                     <span class="tag">SQL seguro</span>
+                  </div>
+               </div></div>
+            </div>
+         </div>
+      </section>
+
+      <section id="experience">
+         <div class="wrap">
+            <h2 class="sec-title">Experiência</h2>
+            <p class="sec-sub">Projetos autorais e estudos guiados.</p>
+            <div class="card">
+               <div class="pad">
+                  <div class="tl">
+                     <div class="tl-item">
+                        <div class="dot"></div>
+                        <div class="tl-content">
+                           <b>Em busca da primeira oportunidade</b> — disponível para vagas de desenvolvedor Full-Stack, com foco em criar soluções eficientes e de qualidade.
+                        </div>
+                     </div>
+                     <div class="tl-item">
+                        <div class="dot"></div>
+                        <div class="tl-content">
+                           <b>Projetos Full‑Stack</b> — concepção à entrega: UI, API Node.js e persistência SQL.
+                        </div>
+                     </div>
+                     <div class="tl-item">
+                        <div class="dot"></div>
+                        <div class="tl-content">
+                           <b>Experimentos de Performance</b> — métricas de bundle, lazy‑loading e acessibilidade real.
+                        </div>
+                     </div>
+                     <div class="tl-item">
+                        <div class="dot"></div>
+                        <div class="tl-content">
+                           <b>Colaboração</b> — Git, code review enxuto e documentação objetiva.
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section id="projects">
+         <div class="wrap">
+            <h2 class="sec-title">Projetos</h2>
+            <p class="sec-sub">Trio base, todos com código aberto.</p>
+            <div class="projects-grid" id="grid">
+            </div>
+         </div>
+      </section>
+
+      <section id="contact">
+         <div class="wrap">
+            <h2 class="sec-title">Contato</h2>
+            <p class="sec-sub">Conecte-se comigo através das minhas redes.</p>
+            <div class="contact-grid">
+               <a href="https://github.com/Gogzzzs" target="_blank" rel="noopener noreferrer" class="card contact-card">
+                  <div class="pad">
+                     <div class="contact-icon">
+                        <i class="fa-brands fa-github"></i>
+                     </div>
+                     <h3>GitHub</h3>
+                     <p class="sec-sub">Veja meus projetos e contribuições</p>
+                     <span class="contact-link">Meu GitHub :) <i class="fa-solid fa-arrow-right"></i></span>
+                  </div>
+               </a>
+               <a href="https://www.linkedin.com/in/gabriel-ramos-1a7a63382/" target="_blank" rel="noopener noreferrer" class="card contact-card">
+                  <div class="pad">
+                     <div class="contact-icon">
+                        <i class="fa-brands fa-linkedin"></i>
+                     </div>
+                     <h3>LinkedIn</h3>
+                     <p class="sec-sub">Conecte-se profissionalmente</p>
+                     <span class="contact-link">Meu perfil no LinkedIn :)<i class="fa-solid fa-arrow-right"></i></span>
+                  </div>
+               </a>
+               <a href="https://wa.me/5522997124650" target="_blank" rel="noopener noreferrer" class="card contact-card">
+                  <div class="pad">
+                     <div class="contact-icon">
+                        <i class="fa-brands fa-whatsapp"></i>
+                     </div>
+                     <h3>WhatsApp</h3>
+                     <p class="sec-sub">Envie uma mensagem direta</p>
+                     <span class="contact-link">Meu contato pessoal :) <i class="fa-solid fa-arrow-right"></i></span>
+                  </div>
+               </a>
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <footer class="footer">
+      <div class="wrap">© <span id="y"></span> Gabriel Gonçalves Ramos — feito em HTML, CSS e JavaScript.</div>
+   </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>
