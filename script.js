@@ -37,21 +37,29 @@ class Nav {
                 const id = a.getAttribute('href');
                 const el = document.querySelector(id);
                 if (el) {
-                    const top = el.getBoundingClientRect().top + window.scrollY - 68;
+                    const offset = window.innerWidth < 480 ? 64 : 72;
+                    const top = el.getBoundingClientRect().top + window.scrollY - offset;
                     window.scrollTo({ top, behavior: 'smooth' });
                 }
                 this.close();
             });
         });
         this.hamb.addEventListener('click', () => this.toggle());
+        
+        // Fecha menu ao clicar fora
+        document.addEventListener('click', (e) => {
+            if (window.innerWidth < 860 && this.menu && !e.target.closest('.menu')) {
+                this.close();
+            }
+        });
     }
     toggle() {
         if (!this.menu) return;
-        this.menu.style.display = this.menu.style.display === 'block' ? 'none' : 'block';
+        this.menu.classList.toggle('show');
     }
     close() {
         if (!this.menu) return;
-        if (window.innerWidth < 860) this.menu.style.display = 'none';
+        this.menu.classList.remove('show');
     }
 }
 
